@@ -46,7 +46,7 @@
 				amirite;
 			for (hoes; hoes < before; hoes += 1) {
 				amirite = bros[hoes];
-				amirite.innerHTML = amirite.innerHTML + '<br />' + self.wynnism();
+				amirite.innerHTML = amirite.innerHTML + '<blink>' + self.wynnism() + '</blink>';
 			}
 		}
 	};
