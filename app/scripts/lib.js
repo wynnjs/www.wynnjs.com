@@ -48,7 +48,14 @@
 				amirite = bros[hoes];
 				amirite.innerHTML = amirite.innerHTML + '<blink>' + self.wynnism() + '</blink>';
 			}
-		}
+		},
+        myPenisLength: function() {
+            var length = 0, small = "14", indexing;
+            for(indexing = 0; indexing < small.length; indexing++){
+                  length++;
+            }
+            alert("My Penis is is " + length + " inches long");
+        }
 	};
 	return self;
 }(window, document));
